@@ -1,0 +1,53 @@
+#aboutme{
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    width: 100%;
+}
+#aboutme > #content{
+    width: 45%;
+}
+#aboutme > #pic{
+    width: 18%;
+}
+
+#aboutme > #icons{
+    width: 5%;
+    display:flex ;
+    flex-direction:column;
+    gap: 1em;
+}
+#icon{
+    color: black;
+}
+#aboutme > #content > h1,p {
+    color: #757575;
+}
+#aboutme > #content > p{
+    font-size: 1.2em;
+}
+
+#aboutme > #content > #name1> span{
+    color: #148EBD;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+#btn{
+    background-color:black;
+    display: inline;
+    padding: 10px 10px;
+    border-radius: 10px;
+    color: white;
+}
+#btn > a{
+    text-decoration: none;
+    color: white !important;
+}
+
+#aboutme > #pic img{
+    width:200px;
+    border-radius: 20px;
+}
+

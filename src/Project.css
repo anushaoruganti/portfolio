@@ -1,0 +1,37 @@
+#projectscon{
+    padding: 0 10em;
+    margin-top: 3em;
+
+}
+#projectscon > h1{
+    text-align: center;
+    color: #757575;
+
+}
+
+#project{
+    width: 260px;
+    border: 0.5px solid black;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+#project > h3{
+    text-align: center;
+}
+#project > img{
+    border-radius: 10px;
+}
+#projlinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+#allproj{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1em;
+}
