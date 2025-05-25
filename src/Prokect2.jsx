@@ -2,11 +2,12 @@ import "./Project.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
+import proj2 from "../pics/proj2.png"
 function Project2() {
   return (
     <div id="allproj">
       <div id="project">
-        <img src="../pics/proj2.png" id="image" width={260} />
+        <img src={proj2} id="image" width={260} />
         <h3>Carrds-Using-JS</h3>
         <p>
           Developed a dynamic product listing interface using HTML, CSS, and

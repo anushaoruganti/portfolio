@@ -4,13 +4,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 import Project2 from "./Prokect2";
+import proj1 from "../pics/projectmins.png";
 function Project() {
   return (
     <div id="projectscon">
       <h1>Projects</h1>
       <div id="allproj">
         <div id="project">
-          <img src="../pics/projectmins.png" id="image" width={260} />
+          <img src={proj1} id="image" width={260} />
           <h3>DINA-Restro</h3>
           <p>
             Built a responsive web page for Dina Restro using HTML and CSS,

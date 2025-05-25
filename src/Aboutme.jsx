@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import Anupic from "../pics/anupic.jpg"
 
 function Aboutme() {
   return (
@@ -34,7 +35,7 @@ function Aboutme() {
         </div>
       </div>
       <div id="pic">
-        <img src="../pics/anupic.jpg" />
+        <img src={Anupic} />
       </div>
     </div>
   );

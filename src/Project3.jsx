@@ -2,11 +2,12 @@ import "./Project.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
+import proj3 from "../pics/proj3.png"
 function Project3() {
   return (
     <div id="allproj">
       <div id="project">
-        <img src="../pics/proj3.png" id="image" width={260} />
+        <img src={proj3} id="image" width={260} />
         <h3>Khadija-using-Bootstrap</h3>
         <p>
           Built a responsive web page for Hijaba Clothing using HTML, CSS, and
